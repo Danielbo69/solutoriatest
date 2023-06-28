@@ -1,0 +1,14 @@
+.btn-start {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #0055ff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px -3px #000;
+}
+
+.btn-start:hover {
+    cursor: pointer;
+    background-color: #004ce4;
+}
