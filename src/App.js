@@ -10,8 +10,8 @@ function App() {
     fetch(`${process.env.REACT_APP_URL_BASE}/api/acceso`, {
       method: "POST",
       body: JSON.stringify({
-        userName: process.env.REACT_APP_USER,
-        flagJson: true
+        "userName": process.env.REACT_APP_USER,
+        "flagJson": true
       }),
       headers: {
         "Content-Type": "application/json",
