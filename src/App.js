@@ -9,10 +9,10 @@ function App() {
   const restapiPost = () => {
     fetch(`${process.env.REACT_APP_URL_BASE}/api/acceso`, {
       method: "POST",
-      body: {
+      body: JSON.stringify({
         userName: process.env.REACT_APP_USER,
         flagJson: true
-      },
+      }),
       headers: {
         "Content-Type": "application/json",
       },
